@@ -1,0 +1,79 @@
+
+#compareblock {
+  width: 100%;
+  max-width: 600px;
+  /* height: 400px; */
+  position: relative;
+  margin: 0 auto;
+  top: 50px;
+  padding-top: 31px;
+   }
+
+#compare-front-img {
+  position: absolute;
+  display: inline-block;
+  /* top: 0;
+  left: 0; */
+  overflow: hidden;
+  z-index: 5;
+ }
+
+#compare-front-img img {
+ height: 400px;
+ width: 640px;
+}
+
+#compare-back-img img {
+ height: 400px;
+  width: 640px;
+}
+
+#compare-line {
+  background-color: black;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  width: 2px;
+  height: 100%;
+  left: 50%;
+  cursor: pointer;
+  }
+
+#compare-line:after {
+  content: url(../img/theta_button.png);
+  display: block;
+  /* width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  background-color: black; */
+  position: absolute;
+  /* top: 50%; */
+  /* top: 8px; */
+  left: -14px;
+}
+
+/* .left_tryangle{
+  display: inline-block;
+   border-top: 12px solid transparent;
+  border-right: 15px solid black;
+  border-bottom: 12px solid transparent;
+  border-left: 12px solid transparent;
+  position: absolute;
+
+  /* top: 50%; */
+  /* top: 2.5px;
+  left: 205px; */
+} */
+
+/* .right_tryangle{
+  display: inline-block;
+  border-top: 12px solid transparent;
+  border-right: 12px solid #transparent;
+  border-bottom: 12px solid transparent;
+  border-left: 15px solid black;
+  position: absolute;
+
+  /* top: 50%; */
+  top: 2.5px;
+  left: 270px;
+} */
