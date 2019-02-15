@@ -36,8 +36,6 @@ function mousemove(e){
     console.log(frontimg.style.width)
     frontimg.style.width = `${x}px`;
     line.style.left = `${x}px`;
-    tryangle_left.style.left = `${x - 45}px`;
-    tryangle_right.style.left = `${x + 20}px`;
     e.stopImmediatePropagation();
     }
   }
